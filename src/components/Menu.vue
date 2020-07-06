@@ -1,7 +1,7 @@
 <template>
     <div id="Menu">
         <div id="menu-container">
-            <div class="menu-box"><a href="#">Home</a></div>
+            <div class="menu-box"><a href="#">Ínicio</a></div>
             <div class="menu-box"><a href="#Sobre">Sobre</a></div>
             <div class="menu-box"><a href="#Portifolio">Portifólio</a></div>
             <div class="menu-box"><a href="#Contato">Contato</a></div>

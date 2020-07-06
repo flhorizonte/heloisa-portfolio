@@ -1,8 +1,11 @@
 <template>
     <div id="Header">
-        <p >Olá, sou a Heloisa</p>
-        <h1>Eu construo valores atráves do Design</h1>
-        <p >Sou brasileira  e adoro desenhar produtos digitais</p>
+        <div id="textos">
+            <h1>Heloisa Oliveira</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d</p>
+            <p>Lorem ipsum dolor</p>
+        </div>
+        <img src="../../public/design.svg" width="25%">
     </div>
 </template>
 
@@ -22,6 +25,8 @@
         justify-content: center;
         background-color: #7A5698;
         padding: 200px;
+        display: flex;
+        justify-content: space-around;
     }
 
     a:link, a:visited {

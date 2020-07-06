@@ -2,7 +2,7 @@
     <div id="Footer">
         <div id="container">
             <div class="box">
-                <h3>Heloisa Oliveira</h3>
+                <!-- <h3>Heloisa Oliveira</h3> -->
             </div>
             <div class="box">
 

@@ -44,7 +44,7 @@ enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
         float:left;
         text-align: center;
         height: 500px;
-        margin-top:50px;
+        
     }
 
     #container {

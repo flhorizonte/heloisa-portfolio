@@ -8,6 +8,7 @@
             <Card></Card>
             <Card></Card>
         </div>
+        <div id="sobre"></div>
     </div>
 </template>
 
