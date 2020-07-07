@@ -41,6 +41,7 @@
      @media only screen and (max-width: 1000px) {
         #Portifolio {
             width: 100%;
+            margin-top:0;
         }
     }
 </style>

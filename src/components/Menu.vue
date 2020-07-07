@@ -36,6 +36,9 @@
     }
 
     @media only screen and (max-width: 1000px) {
+        #Menu {
+            padding-left: 25px;
+        }
         #Menu div:nth-child(1) {
             display: block;
         }
