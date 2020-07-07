@@ -24,12 +24,7 @@
         width: 100%;
         display: flex;
     }
-    #esconderMenu {
-        display:none;
-    }
-    #mostrarMenu {
-        display: block;
-    }
+
     @media only screen and (max-width: 1000px) {
         #MenuMobile div:nth-child(1) {
             flex-direction: column;

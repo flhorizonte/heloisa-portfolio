@@ -17,6 +17,7 @@
     #MenuContainer {
         display: flex;
         width: 25%;
+        height: 100%;
         align-items: center;
         flex-direction: row;
         /* margin-left: 150px; */
@@ -24,7 +25,7 @@
 
     .menu-box {
         width:100%;
-        height: 25%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;

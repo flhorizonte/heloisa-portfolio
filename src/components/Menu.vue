@@ -32,7 +32,7 @@
         align-items: center;
         background-color: #BA8FDF;
         justify-content: space-between;
-        padding:50px;
+        padding-left: 50px;
     }
 
     @media only screen and (max-width: 1000px) {
