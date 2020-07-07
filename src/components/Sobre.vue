@@ -20,6 +20,18 @@
         height: 250px;
         float:left;
         font-size: 1.2em;
-        margin-top:50px;
+        /* margin-top:50px; */
+    }
+     @media only screen and (max-width: 1000px) {
+        #Sobre {
+            width: 100%;
+            padding: 15px;
+        }
+        #Sobre p {
+            font-size: 0.7em;
+        }
+        #Sobre h1 {
+            font-size: 1.5em;
+        }
     }
 </style>

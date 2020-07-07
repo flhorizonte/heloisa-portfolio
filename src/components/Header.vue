@@ -5,7 +5,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d</p>
             <p>Lorem ipsum dolor</p>
         </div>
-        <img src="../../public/design.svg" width="25%">
+        
     </div>
 </template>
 
@@ -24,9 +24,18 @@
         height: 700px;
         justify-content: center;
         background-color: #7A5698;
-        padding: 200px;
         display: flex;
-        justify-content: space-around;
+        justify-content: left;
+        align-items: center;
+        padding: 150px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        #Header {
+            width: 100%;
+            padding: 50px;
+            height:350px;
+        }
     }
 
     a:link, a:visited {

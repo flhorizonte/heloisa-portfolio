@@ -1,5 +1,5 @@
 <template>
-    <div id="Card">
+    <div id="Card" class="col-sm-12 col-md-5">
         
     </div>
 </template>
@@ -13,9 +13,14 @@
 <style scoped>
     #Card {
         height: 450px;
-        width: 45%;
         background-color: #7A5698;
         border-radius: 10px 10px;
         margin: 15px;
+    }
+
+     @media only screen and (max-width: 1000px) {
+       #Card {
+           height: 250px;
+       }
     }
 </style>

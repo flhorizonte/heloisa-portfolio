@@ -22,11 +22,11 @@
 
 <style scoped>
     #Footer{
-        height: 20vh;
+        height: 15vh;
         width: 100%;
         float:left;
         background-color: #7A5698;
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     #container {

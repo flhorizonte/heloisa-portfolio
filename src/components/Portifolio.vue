@@ -38,4 +38,9 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+     @media only screen and (max-width: 1000px) {
+        #Portifolio {
+            width: 100%;
+        }
+    }
 </style>
