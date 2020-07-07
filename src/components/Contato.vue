@@ -82,4 +82,10 @@
             margin-top: 25px;
         }
     }
+
+    @media only screen and (max-width: 400px) {
+        #Contato {
+             margin-top: 50px;
+        }
+    }
 </style>

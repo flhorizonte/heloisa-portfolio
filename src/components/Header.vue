@@ -2,8 +2,7 @@
     <div id="Header">
         <div id="textos">
             <h1>Heloisa Oliveira</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d</p>
-            <p>Lorem ipsum dolor</p>
+            
         </div>
         
     </div>
