@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Menu></Menu>
+    <MenuMobile></MenuMobile>
     <Content></Content>
     <Sobre></Sobre>
     <Contato></Contato>
@@ -14,11 +15,12 @@ import Content from './components/Content.vue'
 import Footer from './components/Footer.vue'
 import Sobre from './components/Sobre.vue'
 import Contato from './components/Contato.vue'
+import MenuMobile from './components/MenuMobile.vue'
 
 export default {
   name: 'App',
   components: {
-    Menu, Content, Footer, Sobre, Contato
+    Menu, Content, Footer, Sobre, Contato, MenuMobile
   }
 }
 </script>

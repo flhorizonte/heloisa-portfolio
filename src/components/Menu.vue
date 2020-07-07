@@ -1,24 +1,28 @@
 <template>
     <div id="Menu">
-        <div id="menu-container">
-            <div class="menu-box"><a href="#">Ínicio</a></div>
-            <div class="menu-box"><a href="#Sobre">Sobre</a></div>
-            <div class="menu-box"><a href="#Portifolio">Portifólio</a></div>
-            <div class="menu-box"><a href="#Contato">Contato</a></div>
-        </div>
+        <MenuToggle></MenuToggle>
+        <MenuContainer></MenuContainer>
     </div>
 </template>
 
 <script>
+    import MenuContainer from './MenuContainer'
+    import MenuToggle from './MenuToggle'
+
     export default {
         name: 'Menu',
+        components: {
+            MenuContainer, MenuToggle
+        },
         data () {
-            return {}
+            return {
+                
+            }
         }
     }
 </script>
 
-<style scoped>
+<style>
     #Menu {
         height: 10vh;
         width:100%;
@@ -26,24 +30,20 @@
         float:left; 
         display: flex;
         align-items: center;
-        position: fixed;
         background-color: #BA8FDF;
+        justify-content: space-between;
+        padding:50px;
     }
 
-    #menu-container {
-        display: flex;
-        width: 25%;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 150px;
+    @media only screen and (max-width: 1000px) {
+        #Menu div:nth-child(1) {
+            display: block;
+        }
+        #Menu div:nth-child(2) {
+            display: none;
+        }
     }
+
    
-    a:link, a:visited {
-        text-decoration: none;
-        color: #FFF;
-    }
-    a:hover {
-        color: #711ABC;
-    }
+   
 </style>
