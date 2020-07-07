@@ -5,13 +5,23 @@
         <div id="container">
             <div class="box">
                 <span>
-                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+                   Deseja uma ARTE GRÁFICA para seu negócio?
+                    Eu faço:
+                    <strong>Logotipo</strong>, 
+                    <strong>Marca d'água</strong>, 
+                    <strong>Cartão de visita</strong>, 
+                    <strong>Cartão fidelidade</strong>, 
+                    <strong>Placa para fotos</strong>, 
+                    <strong>Capa para Facebook</strong> e
+                    <strong>Banners</strong>.
+                    O design/modelo é feito de acordo com sua preferência, venha solicitar um ORÇAMENTO!
+                    Entre em contato pelo <a href="https://wa.me/5543984317435?text=Olá, vim pelo site">Whatsapp</a>
                 </span>
+                <br>
             </div>
             <div class="box">
                 <div class="box-form">
-                    <h5>Me envie um email!</h5>
+                    <h5>Ou me envie um email!</h5>
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="email@example.com">
@@ -23,7 +33,7 @@
                             <textarea class="form-control" placeholder="...."></textarea>
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btn btn-primary">
+                            <input type="submit" class="btn btn-primary" disabled>
                         </div>
                     </form>
                 </div>
@@ -44,6 +54,7 @@
         float:left;
         text-align: center;
         height: 500px;
+        
     }
 
     #container {
@@ -59,10 +70,19 @@
         text-align: justify;
     }
 
+    a:link, a:visited {
+        color: #711ABC;
+        text-decoration: none;
+    }
+
+    .whatsapp {
+        color: green !important;
+    }
+
      @media only screen and (max-width: 1000px) {
         #Contato {
             width: 100%;
-            margin-top: 50px;
+            
         }
         .box {
             width:100%;

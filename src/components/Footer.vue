@@ -2,7 +2,7 @@
     <div id="Footer">
         <div id="container">
             <div class="box">
-                <!-- <h3>Heloisa Oliveira</h3> -->
+               <p>Whatsapp: <strong>(43) 98431-7435</strong></p>
             </div>
             <div class="box">
 
@@ -22,7 +22,7 @@
 
 <style scoped>
     #Footer{
-        height: 15vh;
+        height: 10vh;
         width: 100%;
         float:left;
         background-color: #7A5698;
