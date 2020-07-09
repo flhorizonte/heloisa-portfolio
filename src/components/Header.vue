@@ -22,7 +22,7 @@
         height: 700px;
         background-color: #7A5698;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         padding: 150px;
         align-items: center;
     }

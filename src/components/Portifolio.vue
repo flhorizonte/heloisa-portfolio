@@ -32,6 +32,18 @@
                     '10.jpeg',
                     '11.jpeg',
                     '12.jpeg',
+                    '13.jpeg',
+                    '14.jpeg',
+                    '15.jpeg',
+                    '16.jpeg',
+                    '18.jpeg',
+                    '19.jpeg',
+                    '20.jpeg',
+                    '21.jpeg',
+                    '22.jpeg',
+                    '23.jpeg',
+                    '24.jpeg',
+                    '25.jpeg',
                 ]
             }
         }
@@ -46,18 +58,28 @@
         width: 70%;
         border-radius: 5px 5px;
         margin-top:50px;
-        
     }
+    
     #Portifolio #content {
         justify-content: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        overflow: auto;
+        height: 750px;
+        /* padding: 50px; */
+        background-color: #7A5698;
+        
     }
      @media only screen and (max-width: 1000px) {
         #Portifolio {
             width: 100%;
             margin-top:0;
+        }
+
+        #Portifolio #content {
+            height: 400px;
+            
         }
 
         #Portifolio h1 {

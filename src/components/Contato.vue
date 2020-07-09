@@ -15,7 +15,7 @@
                     <strong>Capa para Facebook</strong> e
                     <strong>Banners</strong>.
                     O design/modelo é feito de acordo com sua preferência, venha solicitar um ORÇAMENTO!
-                    Entre em contato pelo <a href="https://wa.me/5543984317435?text=Olá, vim pelo site">Whatsapp</a>
+                    Entre em contato pelo <a href="https://wa.me/5543984317435?text=Olá, vim pelo site">Whatsapp <img src="../assets/whatsapp.png"></a>
                 </span>
                 <br>
             </div>

@@ -21,9 +21,6 @@
     #MenuToggle {
         display: none;
     }
-
-    
-
     #MenuToggle button {
         background: none;
         border-style: none;

@@ -2,7 +2,7 @@
     <div id="Footer">
         <div id="container">
             <div class="box">
-               <p>Whatsapp: <strong>(43) 98431-7435</strong></p>
+               <small>Site construido por <a href="https://github.com/flhorizonte"><strong>@FelipeHorizonte</strong></a></small>
             </div>
             <div class="box">
 
@@ -31,9 +31,15 @@
 
     #container {
         display: flex;
-        flex-direction: row;
+        flex-direction: row;    
         justify-content: space-around;
         align-items: center;
         height:100%;
+    }
+
+    #container .box {
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 </style>
