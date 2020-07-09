@@ -68,7 +68,7 @@
         overflow: auto;
         height: 750px;
         /* padding: 50px; */
-        background-color: #7A5698;
+        /* background-color: #7A5698; */
         
     }
      @media only screen and (max-width: 1000px) {
