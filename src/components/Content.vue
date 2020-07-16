@@ -1,7 +1,6 @@
 <template>
     <div id="Content">
         <Header></Header>
-        
         <Portifolio></Portifolio>
     </div>
 </template>
